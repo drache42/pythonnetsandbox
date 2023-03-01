@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringPrinterSDK", "src\StringPrinterSDK\StringPrinterSDK.csproj", "{E2DA44EE-CD7A-4448-A5D0-2FA9E55916FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stuff", "Stuff", "{BD710804-D590-47C6-8F8D-E776C1AFDF90}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpProgram", "src\CSharpProgram\CSharpProgram.csproj", "{4C521FE3-F333-42DB-A4BE-2BA6B4009299}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonProgram", "src\PythonProgram\PythonProgram.pyproj", "{B4EAAE47-9F78-48FF-B2A1-335F15B7C9A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2DA44EE-CD7A-4448-A5D0-2FA9E55916FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DA44EE-CD7A-4448-A5D0-2FA9E55916FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DA44EE-CD7A-4448-A5D0-2FA9E55916FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DA44EE-CD7A-4448-A5D0-2FA9E55916FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C521FE3-F333-42DB-A4BE-2BA6B4009299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C521FE3-F333-42DB-A4BE-2BA6B4009299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C521FE3-F333-42DB-A4BE-2BA6B4009299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C521FE3-F333-42DB-A4BE-2BA6B4009299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EAAE47-9F78-48FF-B2A1-335F15B7C9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EAAE47-9F78-48FF-B2A1-335F15B7C9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31F3E1AF-2ACC-420E-BDE1-61DE0CA22F03}
+	EndGlobalSection
+EndGlobal
